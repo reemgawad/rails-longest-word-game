@@ -5,3 +5,25 @@
 a {
   text-decoration: none;
 }
+
+ul {
+  padding-inline-start: 0px;
+  list-style-type: none;
+}
+
+li {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+div {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(144, 144, 215);
+  display: inline-block;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  position: relative
+}
