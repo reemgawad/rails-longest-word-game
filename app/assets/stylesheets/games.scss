@@ -1,6 +1,7 @@
 // Place all the styles related to the games controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@200&family=Raleway:wght@100&display=swap');
 
 a {
   text-decoration: none;
@@ -26,4 +27,21 @@ div {
   color: white;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   position: relative
+}
+
+h1 {
+  font-family: 'Lora', sans-serif;
+  color:rgb(183, 125, 54)
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+  background-color: antiquewhite;
+  color: rgb(97, 68, 6);
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
 }
